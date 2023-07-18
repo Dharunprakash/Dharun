@@ -1,0 +1,31 @@
+body{
+		background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url("/gamephotos/nbus.jpg");
+		background-size: 100% 100%;
+}
+.bus{
+	width: 400px;
+	height: 300px;
+	margin: 150px auto 100px;
+	background-color: rgba(152, 255, 152, .5);
+	overflow-y: scroll;
+	border-radius: 50px;
+
+}
+.bus a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.bus li{
+	position: relative;
+	top: 10px;
+	left: 50px;
+	width: 200px;
+	border: 1px solid black;
+	margin-top: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 40px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	background-color: rgba(128, 128, 128, .9);
+}

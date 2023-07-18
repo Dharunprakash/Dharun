@@ -1,0 +1,54 @@
+body{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)),url("/gamephotos/bbus.jpg");
+		background-size: 100% 100%;
+	font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+h3{
+	color: rgba(152,255,152, 1.0);
+	text-align: center;
+
+}
+.regform{
+	display: block;
+	width: 350px;
+	padding: 10px 20px 15px;
+	margin: 100px auto 100px;
+	background-color:rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 25px;
+
+	border-radius: 30px;
+}
+.input label{
+	display: block;
+}
+.input input{
+	width: 100%;
+	font-size: 20px;
+	/*border: 1px solid #006B77;*/
+	box-sizing: border-box;
+	border-radius: 15px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	padding: 5px 10px;
+	margin: 5px 0px 10px;
+	font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+input:focus
+{
+	background-color:lightskyblue;
+}
+.btn{
+	text-align: center;
+}
+.btn a{
+	width: 70px;
+	color: white;
+	background-color: rgba(255,0,56,0.9);
+	font-size: 17px;
+	padding: 10px 15px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+

@@ -1,0 +1,52 @@
+body{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("/gamephotos/bbb.jpg");
+    background-size: 100% 100%;
+}
+.form{
+	width: 400px;
+	margin: 100px auto 100px;
+	height: 550px;
+	background: rgb(130,200,251);
+background: linear-gradient(90deg, rgba(130,200,251,1) 0%, rgba(201,138,228,1) 100%);
+	border-radius: 30px;
+}
+.form h3{
+	width: 100px;
+	position: relative;
+	left: 150px;
+	top: 17px;
+	font-size: 17pxs;
+	
+
+}
+.form input{
+	width: 90%;
+	text-align: center;
+	margin-left: 17px;
+	margin-right: 4px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 19px;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+.form textarea
+{
+  width: 90%;
+	margin: 10px;
+	font-size: 17px;
+	box-sizing: border-box;
+}
+.btn{
+	text-align: center;
+	margin-top: 10px;
+}
+.btn a{
+	width: 70px;
+	color: white;
+	background-color: rgba(152,255,152,0.9);
+	font-size: 17px;
+	padding: 10px 15px;
+	border-radius: 15px;
+	text-decoration: none;
+}
